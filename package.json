@@ -1,0 +1,30 @@
+{
+  "name": "playwrightautomationtesting",
+  "version": "1.0.0",
+  "description": "This repo is for playwright project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:google": "playwright test tests/google.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beerbluedevils/PlaywrightAutomationTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/beerbluedevils/PlaywrightAutomationTesting/issues"
+  },
+  "homepage": "https://github.com/beerbluedevils/PlaywrightAutomationTesting#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@playwright/mcp": "^1.0.0",
+    "@types/node": "^25.8.0"
+  }
+}
