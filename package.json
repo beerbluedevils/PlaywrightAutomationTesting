@@ -24,7 +24,6 @@
   "homepage": "https://github.com/beerbluedevils/PlaywrightAutomationTesting#readme",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@playwright/mcp": "^1.0.0",
     "@types/node": "^25.8.0"
   }
 }
